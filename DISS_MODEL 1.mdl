@@ -1,0 +1,326 @@
+{UTF-8}
+Access to knowledge  = A FUNCTION OF( Relational emphasis)
+	~	
+	~		|
+
+Actual perf  = A FUNCTION OF( Superficial compliance)
+	~	
+	~		|
+
+Actual performance  = A FUNCTION OF( Ecological and societal conditions,Empowering improvement\
+		)
+	~	
+	~		|
+
+Performance goals  = A FUNCTION OF( Eco conditions,Long term supply pressure,Reframing sourcing strategies\
+		,Stakeholder expectation)
+	~	
+	~		|
+
+Change agents  = A FUNCTION OF( Empowering improvement)
+	~	
+	~		|
+
+Reframing of sourcing strategies  = A FUNCTION OF( Discourse on sourcing practices,Dynamic capabilities\
+		,SOURCING PERFORMANCE GAP)
+	~	
+	~		|
+
+Discourse on sourcing practices  = A FUNCTION OF( Access to knowledge,Change agents)
+	~	
+	~		|
+
+Dynamic capabilities  = A FUNCTION OF( Change agents)
+	~	
+	~		|
+
+Eco conditions  = A FUNCTION OF( Actual perf)
+	~	
+	~		|
+
+Ecological and societal conditions  = A FUNCTION OF( Actual performance)
+	~	
+	~		|
+
+Resource depletion  = A FUNCTION OF( Eco conditions)
+	~	
+	~		|
+
+Empowering improvement  = A FUNCTION OF( SOURCING PERFORMANCE GAP)
+	~	
+	~		|
+
+Superficial compliance  = A FUNCTION OF( Management pressure)
+	~	
+	~		|
+
+SOURCING PERFORMANCE GAP  = A FUNCTION OF( Actual performance,Performance goal)
+	~	
+	~		|
+
+Knowledge in practice  = A FUNCTION OF( Access to knowledge)
+	~	
+	~		|
+
+Long term supply pressure  = A FUNCTION OF( Resource depletion)
+	~	
+	~		|
+
+Regulatory scrutiny  = A FUNCTION OF( PERFORMANCE GAP)
+	~	
+	~		|
+
+Management pressure  = A FUNCTION OF( PERFORMANCE GAP,Regulatory scrutiny)
+	~	
+	~		|
+
+PERFORMANCE GAP  = A FUNCTION OF( Actual perf,Performance goals)
+	~	
+	~		|
+
+Performance goal  = A FUNCTION OF( Ecological and societal conditions,Reframing of sourcing strategies\
+		,Stakeholders expectations)
+	~	
+	~		|
+
+Stakeholders expectations  = A FUNCTION OF( Ecological and societal conditions,Knowledge in practice\
+		)
+	~	
+	~		|
+
+Relational emphasis  = A FUNCTION OF( Empowering improvement)
+	~	
+	~		|
+
+Reframing sourcing strategies  = A FUNCTION OF( PERFORMANCE GAP,Regulatory scrutiny)
+	~	
+	~		|
+
+Stakeholder expectation  = A FUNCTION OF( Eco conditions)
+	~	
+	~		|
+
+Blanket regulations  = A FUNCTION OF( Resources depletion)
+	~	
+	~		|
+
+Corporate dominance  = A FUNCTION OF( Financial pressure)
+	~	
+	~		|
+
+Ecological considerations  = A FUNCTION OF( Positional decision making)
+	~	
+	~		|
+
+Financial pressure  = A FUNCTION OF( Positional decision making)
+	~	
+	~		|
+
+Immediate profit  = A FUNCTION OF( Corporate dominance)
+	~	
+	~		|
+
+Loophole exploitation  = A FUNCTION OF( Blanket regulations)
+	~	
+	~		|
+
+Positional decision making  = A FUNCTION OF( Loophole exploitation,Resource extraction rate\
+		)
+	~	
+	~		|
+
+Resource dependencies  = A FUNCTION OF( Ecological considerations)
+	~	
+	~		|
+
+Resource extraction rate  = A FUNCTION OF( Immediate profit)
+	~	
+	~		|
+
+Resources depletion  = A FUNCTION OF( Resource dependencies)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,99,2
+10,1,SOURCING PERFORMANCE GAP,1630,586,62,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,2,Empowering improvement,1728,720,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,Actual performance,1575,656,53,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,Performance goal,1534,503,48,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,5,Reframing of sourcing strategies,1645,382,62,26,8,3,0,18,-1,0,0,0,0-0-0,0-0-0,||B|255-65-64,0,0,0,0,0,0
+1,6,1,2,1,0,43,0,0,193,0,-1--1--1,,1|(1736,642)|
+1,7,2,3,1,0,43,0,0,193,0,-1--1--1,,1|(1640,721)|
+1,8,3,1,1,0,45,0,0,192,0,-1--1--1,,1|(1558,612)|
+1,9,1,5,1,0,43,0,0,192,0,-1--1--1,,1|(1676,522)|
+1,10,5,4,1,0,45,0,0,192,0,-1--1--1,,1|(1569,440)|
+1,11,4,1,1,0,43,0,0,192,0,-1--1--1,,1|(1550,544)|
+12,12,0,1623,520,17,17,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B2
+12,13,0,1663,660,18,18,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B1
+10,14,Ecological and societal conditions,1361,577,59,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||54-166-43,0,0,0,0,0,0
+10,15,Stakeholders expectations,1408,332,46,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||54-166-43,0,0,0,0,0,0
+10,16,Change agents,1813,605,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,17,Dynamic capabilities,1768,508,54,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,18,Discourse on sourcing practices,1751,312,58,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,19,2,16,1,0,43,0,0,193,0,-1--1--1,,1|(1791,664)|
+1,20,16,17,1,0,43,0,0,192,0,-1--1--1,,1|(1807,555)|
+1,21,17,5,1,0,45,0,0,192,0,-1--1--1,,1|(1759,456)|
+1,22,18,5,1,0,45,0,0,192,0,-1--1--1,,1|(1672,327)|
+1,23,3,14,1,0,43,0,0,193,0,-1--1--1,,1|(1425,638)|
+1,24,14,4,1,0,45,0,1,192,0,54-166-43,|||0-0-0,1|(1497,535)|
+1,25,14,15,1,0,45,0,1,192,0,54-166-43,|||0-0-0,1|(1329,482)|
+1,26,15,4,1,0,43,0,1,192,0,54-166-43,|||0-0-0,1|(1437,425)|
+1,27,14,3,1,0,43,0,1,192,0,54-166-43,|||0-0-0,1|(1405,689)|
+12,28,0,1735,549,19,19,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R3
+12,29,0,1629,259,18,18,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R4
+1,30,16,18,1,0,43,0,0,192,0,-1--1--1,,1|(1828,418)|
+12,31,0,1747,359,20,20,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R5
+12,32,0,1487,596,17,17,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B6
+12,33,0,1416,493,21,21,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B7
+12,34,0,1443,682,14,14,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R8
+10,35,Relational emphasis,1901,647,53,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,36,Access to knowledge,1918,510,55,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,37,Knowledge in practice,1791,225,58,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,38,2,35,1,0,43,0,0,192,0,-1--1--1,,1|(1831,699)|
+1,39,35,36,1,0,43,0,0,192,0,-1--1--1,,1|(1922,570)|
+1,40,36,37,1,0,43,0,0,192,0,-1--1--1,,1|(1883,288)|
+1,41,37,15,1,0,43,0,0,192,0,-1--1--1,,1|(1530,215)|
+1,42,36,18,1,0,43,0,0,192,0,-1--1--1,,1|(1866,404)|
+10,43,PERFORMANCE GAP,696,578,53,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,44,Actual perf,539,647,46,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,45,Reframing sourcing strategies,789,459,52,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,46,Performance goals,666,347,50,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,47,44,43,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(579,596)|
+1,48,43,45,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(767,520)|
+1,49,45,46,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(763,413)|
+1,50,46,43,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(648,467)|
+10,51,Management pressure,758,701,59,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,52,43,51,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(755,635)|
+10,53,Eco conditions,288,595,46,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,54,44,53,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(330,654)|
+1,55,53,46,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(530,495)|
+10,56,Resource depletion,391,472,52,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,57,Long term supply pressure,518,368,47,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,58,53,56,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(322,531)|
+1,59,56,57,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(435,419)|
+1,60,57,46,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(599,345)|
+10,61,Superficial compliance,618,742,59,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,62,51,61,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(722,735)|
+1,63,61,44,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(540,698)|
+10,64,Regulatory scrutiny,897,600,51,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,65,43,64,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(817,555)|
+1,66,64,51,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(883,654)|
+12,67,0,659,658,20,20,4,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+R1
+1,68,64,45,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(906,515)|
+12,69,0,709,481,21,21,5,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+B2
+12,70,0,818,615,23,23,4,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+B4
+12,71,0,829,520,25,25,5,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+B5
+12,72,0,518,592,20,20,5,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+R3
+12,73,0,385,379,21,21,4,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+B7
+12,74,0,531,452,21,21,4,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+B6
+10,75,Stakeholder expectation,425,308,63,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,76,53,75,1,0,43,0,1,192,0,60-64-200,|||0-0-0,1|(283,453)|
+1,77,75,46,1,0,45,0,1,192,0,60-64-200,|||0-0-0,1|(543,269)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 2
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,2
+10,1,Financial pressure,514,255,49,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,Positional decision making,583,387,50,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,Resource extraction rate,476,491,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,Immediate profit,311,403,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,5,Corporate dominance,333,277,58,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,6,Loophole exploitation,639,497,57,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,7,1,5,1,0,0,0,0,192,0,-1--1--1,,1|(400,229)|
+1,8,5,4,1,0,0,0,0,192,0,-1--1--1,,1|(276,343)|
+1,9,4,3,1,0,0,0,0,192,0,-1--1--1,,1|(356,472)|
+1,10,3,2,1,0,0,0,0,192,0,-1--1--1,,1|(590,447)|
+1,11,2,1,1,0,0,0,0,192,0,-1--1--1,,1|(591,311)|
+1,12,6,2,1,0,0,0,0,192,0,-1--1--1,,1|(619,451)|
+10,13,Blanket regulations,772,558,52,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,14,13,6,1,0,0,0,0,192,0,-1--1--1,,1|(730,548)|
+10,15,Ecological considerations,721,287,65,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,16,Resource dependencies,892,352,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,17,Resources depletion,918,468,54,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,18,2,15,1,0,0,0,0,192,0,-1--1--1,,1|(630,312)|
+1,19,15,16,1,0,0,0,0,192,0,-1--1--1,,1|(876,290)|
+1,20,16,17,1,0,0,0,0,192,0,-1--1--1,,1|(912,425)|
+1,21,17,13,1,0,0,0,0,192,0,-1--1--1,,1|(877,532)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 3
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,2
+///---\\\
+:L<%^E!@
+5:Time
+19:99,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1

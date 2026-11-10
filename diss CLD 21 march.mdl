@@ -1,0 +1,225 @@
+{UTF-8}
+A COMBINED LENS  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Data, metrics, market logic"  = A FUNCTION OF( "Relationships, place, proximity")
+	~	
+	~		|
+
+"Audit frameworks, certifications"  = A FUNCTION OF( Community trust and transparency\
+		)
+	~	
+	~		|
+
+"Climate models, actuarial data"  = A FUNCTION OF( Ecological pattern knowledge)
+	~	
+	~		|
+
+"R&D pipelines, IP development"  = A FUNCTION OF( "Plant and place-based knowledge")
+	~	
+	~		|
+
+Community trust and transparency  = A FUNCTION OF( "Audit frameworks, certifications"\
+		)
+	~	
+	~		|
+
+Ecological pattern knowledge  = A FUNCTION OF( "Climate models, actuarial data")
+	~	
+	~		|
+
+Ecological overshoot  = A FUNCTION OF( Poor ecological conditions)
+	~	
+	~		|
+
+"Relationships, place, proximity"  = A FUNCTION OF( "Data, metrics, market logic")
+	~	
+	~		|
+
+"Soil testing, yield modelling"  = A FUNCTION OF( Seasonal land knowledge)
+	~	
+	~		|
+
+Poor ecological conditions  = A FUNCTION OF( Aggressive extraction and rapid plantation expansion\
+		,Expanding sourcing into new landscapes)
+	~	
+	~		|
+
+"Plant and place-based knowledge"  = A FUNCTION OF( "R&D pipelines, IP development")
+	~	
+	~		|
+
+Seasonal land knowledge  = A FUNCTION OF( "Soil testing, yield modelling")
+	~	
+	~		|
+
+Closed financial system  = A FUNCTION OF( "Management pressure (cost and time)",Poor ecological conditions\
+		)
+	~	
+	~		|
+
+Regulatory scrutiny  = A FUNCTION OF( "Superficial compliance measures & lowered ambitions"\
+		)
+	~	
+	~		|
+
+"Superficial compliance measures & lowered ambitions"  = A FUNCTION OF( Sustainability performance gap\
+		)
+	~	
+	~		|
+
+Level of epistemological awareness  = A FUNCTION OF( Closed financial system)
+	~	
+	~		|
+
+Sustainability performance gap  = A FUNCTION OF( Closed financial system,Regulatory scrutiny\
+		)
+	~	
+	~		|
+
+Aggressive extraction and rapid plantation expansion  = A FUNCTION OF( Level of epistemological awareness\
+		)
+	~	
+	~		|
+
+Expanding sourcing into new landscapes  = A FUNCTION OF( Land inaccesibility and supply price hikes\
+		)
+	~	
+	~		|
+
+Land inaccesibility and supply price hikes  = A FUNCTION OF( Resource scarcity)
+	~	
+	~		|
+
+"Management pressure (cost and time)"  = A FUNCTION OF( Sustainability performance gap\
+		)
+	~	
+	~		|
+
+Resource scarcity  = A FUNCTION OF( Ecological overshoot)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,167,2
+10,1,Sustainability performance gap,-733,202,52,22,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,2,Closed financial system,-849,242,57,17,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,3,"Management pressure (cost and time)",-697,292,66,20,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,4,1,3,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(-706,242)|
+1,5,2,1,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(-815,199)|
+10,6,Regulatory scrutiny,-786,115,50,18,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||255-65-64,0,0,0,0,0,0
+10,7,"Superficial compliance measures & lowered ambitions",-642,127,59,27,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||255-65-64,0,0,0,0,0,0
+1,8,3,2,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(-806,302)|
+1,9,6,1,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(-785,164)|
+10,10,Aggressive extraction and rapid plantation expansion,-1015,210,65,21,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,11,Level of epistemological awareness,-956,308,62,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,12,Poor ecological conditions,-913,156,55,15,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+1,13,11,10,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-1009,266)|
+1,14,10,12,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-997,176)|
+10,15,Ecological overshoot,-1039,94,36,14,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,16,Resource scarcity,-1029,18,43,12,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,17,Land inaccesibility and supply price hikes,-909,-8,54,19,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,18,Expanding sourcing into new landscapes,-863,82,51,19,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+1,19,15,16,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-1045,57)|
+1,20,16,17,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-996,-5)|
+1,21,17,18,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-869,30)|
+1,22,12,15,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-993,137)|
+1,23,18,12,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-874,111)|
+1,24,1,7,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(-669,184)|
+1,25,7,6,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(-712,76)|
+1,26,12,2,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-847,193)|
+1,27,2,11,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(-866,277)|
+12,28,0,-280,70,80,40,8,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+WESTERN KNOWLEDGE LENS
+12,29,0,0,69,80,40,8,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||255-65-64,0,0,0,0,0,0
+INDIGENOUS KNOWLEDGE LENS
+10,30,"Data, metrics, market logic",-280,105,81,14,3,3,0,7,-1,1,0,0,168-102-37,255-248-208,|||168-102-37,0,0,0,0,0,0
+10,31,"Relationships, place, proximity",-4,106,96,15,3,3,0,7,-1,1,0,0,255-65-64,255-232-232,|||255-65-64,0,0,0,0,0,0
+10,32,"Soil testing, yield modelling",-280,177,81,24,3,3,0,7,-1,1,0,0,168-102-37,255-248-208,|||168-102-37,0,0,0,0,0,0
+10,33,Seasonal land knowledge,-3,177,97,24,3,3,0,7,-1,1,0,0,255-65-64,255-232-232,|||255-65-64,0,0,0,0,0,0
+10,34,"Audit frameworks, certifications",-280,260,82,24,3,3,0,7,-1,1,0,0,168-102-37,255-248-208,|||168-102-37,0,0,0,0,0,0
+10,35,Community trust and transparency,-2,259,98,24,3,3,0,7,-1,1,0,0,255-65-64,255-232-232,|||255-65-64,0,0,0,0,0,0
+10,36,"Climate models, actuarial data",-280,343,82,24,3,3,0,7,-1,1,0,0,168-102-37,255-248-208,|||168-102-37,0,0,0,0,0,0
+10,37,Ecological pattern knowledge,-2,345,98,25,3,3,0,7,-1,1,0,0,255-65-64,255-232-232,|||255-65-64,0,0,0,0,0,0
+10,38,"R&D pipelines, IP development",-280,426,83,24,3,3,0,7,-1,1,0,0,168-102-37,255-248-208,|||168-102-37,0,0,0,0,0,0
+10,39,"Plant and place-based knowledge",-2,426,99,24,3,3,0,7,-1,1,0,0,255-65-64,255-232-232,|||255-65-64,0,0,0,0,0,0
+12,40,0,-147,140,77,7,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+LAND ASSESSMENT
+12,41,0,-148,224,75,9,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+SUPPLIER VETTING
+12,42,0,-149,306,80,10,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+RISK MANAGEMENT
+12,43,0,-148,392,79,7,8,7,0,0,-1,0,0,0,0,0,0,0,0,0
+INNOVATION
+1,44,30,31,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,45,31,30,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,46,32,33,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,47,33,32,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,48,34,35,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,49,35,34,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,50,36,37,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,51,37,36,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,52,38,39,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+1,53,39,38,0,0,0,0,1,192,0,0-0-0,|||0-0-0,1|(0,0)|
+10,54,A COMBINED LENS,-133,501,229,25,3,3,0,7,-1,1,0,0,87-19-255,228-220-255,|||87-19-255,0,0,0,0,0,0
+///---\\\
+:L<%^E!@
+5:"Data, metrics, market logic"
+19:167,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1

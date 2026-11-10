@@ -1,0 +1,146 @@
+{UTF-8}
+Closed financial system  = A FUNCTION OF( "Management pressure (cost and time)",Poor ecological conditions\
+		)
+	~	
+	~		|
+
+Regulatory scrutiny  = A FUNCTION OF( "Superficial compliance measures & lowered ambitions"\
+		)
+	~	
+	~		|
+
+"Superficial compliance measures & lowered ambitions"  = A FUNCTION OF( Sustainability performance gap\
+		)
+	~	
+	~		|
+
+Level of epistemological awareness  = A FUNCTION OF( Closed financial system)
+	~	
+	~		|
+
+Sustainability performance gap  = A FUNCTION OF( Closed financial system,Regulatory scrutiny\
+		)
+	~	
+	~		|
+
+Aggressive extraction and rapid plantation expansion  = A FUNCTION OF( Level of epistemological awareness\
+		)
+	~	
+	~		|
+
+Ecological overshoot  = A FUNCTION OF( Poor ecological conditions)
+	~	
+	~		|
+
+Expanding sourcing into new landscapes  = A FUNCTION OF( Land inaccesibility and supply price hikes\
+		)
+	~	
+	~		|
+
+Land inaccesibility and supply price hikes  = A FUNCTION OF( Resource scarcity)
+	~	
+	~		|
+
+"Management pressure (cost and time)"  = A FUNCTION OF( Sustainability performance gap\
+		)
+	~	
+	~		|
+
+Poor ecological conditions  = A FUNCTION OF( Aggressive extraction and rapid plantation expansion\
+		,Expanding sourcing into new landscapes)
+	~	
+	~		|
+
+Resource scarcity  = A FUNCTION OF( Ecological overshoot)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,146,2
+10,1,Sustainability performance gap,699,352,52,22,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,2,Closed financial system,583,392,57,17,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+10,3,"Management pressure (cost and time)",735,442,66,20,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||60-64-200,0,0,0,0,0,0
+1,4,1,3,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(726,392)|
+1,5,2,1,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(617,349)|
+10,6,Regulatory scrutiny,646,265,50,18,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||255-65-64,0,0,0,0,0,0
+10,7,"Superficial compliance measures & lowered ambitions",790,277,59,27,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||255-65-64,0,0,0,0,0,0
+1,8,3,2,1,0,0,0,1,192,0,60-64-200,|||0-0-0,1|(626,452)|
+1,9,6,1,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(647,314)|
+10,10,Aggressive extraction and rapid plantation expansion,405,356,65,21,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,11,Level of epistemological awareness,459,458,62,26,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,12,Poor ecological conditions,519,306,55,15,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+1,13,11,10,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(401,414)|
+1,14,10,12,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(433,322)|
+10,15,Ecological overshoot,391,242,48,15,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,16,Resource scarcity,402,174,43,12,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,17,Land inaccesibility and supply price hikes,523,142,54,19,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+10,18,Expanding sourcing into new landscapes,569,232,51,19,8,3,0,2,-1,0,0,0,0-0-0,0-0-0,|||168-102-37,0,0,0,0,0,0
+1,19,15,16,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(388,207)|
+1,20,16,17,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(430,143)|
+1,21,17,18,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(563,180)|
+1,22,12,15,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(426,275)|
+1,23,18,12,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(558,261)|
+1,24,1,7,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(763,334)|
+1,25,7,6,1,0,0,0,1,192,0,255-65-64,|||0-0-0,1|(720,226)|
+1,26,12,2,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(585,343)|
+1,27,2,11,1,0,0,0,1,192,0,168-102-37,|||0-0-0,1|(561,428)|
+///---\\\
+:L<%^E!@
+5:Expanding sourcing into new landscapes
+19:146,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
